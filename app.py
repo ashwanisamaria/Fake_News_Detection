@@ -1,5 +1,8 @@
-import streamlit as st  
+import streamlit as st
 import joblib
+import pandas as pd
+import re
+import string
 
 
 vectorizer = joblib.load("vectorizer.jb")
