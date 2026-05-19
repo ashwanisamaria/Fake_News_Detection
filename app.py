@@ -6,7 +6,7 @@ import string
 
 
 vectorizer = joblib.load("vectorizer.jb")
-model = joblib.load("lr_model.jb")
+model = joblib.load("model.jb")
 
 st.title("Fake News Detector")
 st.write("Enter the news text below to check if it's real or fake.")
