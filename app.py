@@ -19,10 +19,10 @@ if st.button("Check News"):
         prediction = model.predict(transform_input)
 
         if prediction[0] == 0:
-            st.success("The news is Real.")
+            st.success("✅ The news is Real.")
 
         else:
-            st.error("The news is Fake.")
+            st.error("❌ The news is Fake.")
     else:
         st.warning("Please enter a news article to check.")
         
